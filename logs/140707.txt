@@ -1,0 +1,2 @@
+vi /usr/local/apache/conf/httpd.conf
+열어서 rootdir변경함

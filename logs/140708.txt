@@ -1,0 +1,5 @@
+vi로 /etc/profile을 연다.
+
+가장 마지막 줄에 다음을 추가하고 저장한다.
+
+export PATH="$PATH:/usr/local/mysql/bin"

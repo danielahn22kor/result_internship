@@ -1,0 +1,16 @@
+1. 요구조건
+	매주 일요일 04시에 서버시간을 time.nist.gov와 자동으로 맞추도록 예약 등록
+		-> 00 4 * * 0 radate -s time.nist.gov crontab 설정
+	UTF-8 지원 
+		-> APM 설치 시 Config
+
+2. OS 설치 계획
+	IP는 서버에 고정 IP 할당
+	파티션
+		Swap ram*2
+		Boot 250mb 이상
+		Root 10GB
+		Home 나머지
+
+3. APM CONFIG
+	UTF-8 설정
